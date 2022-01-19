@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+    background-color: white;
+}
+
+.productTitle {
+    width: 620px;
+    height: 420px;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    top: 9.5%;
+    left: 45%;
+    position: absolute;
+    box-sizing: border-box;   
+    font-family: "Fredoka One", cursive;
+}
+
+.productPrice {
+    color:red;
+    font-size: 0.8rem;
+    font-family: 'Georama', sans-serif;
+}
+
+.productTitle.h1 {
+    top: -50%;
+}
+.productImage {
+    top: 10%;
+    left: 0%;
+    position: absolute;
+    scale: 95%;
+}
+
+.add {
+    background-color: orange;
+    border: none;
+    position: absolute;
+    text-decoration: none;
+    scale: 150%;
+    left: 40%;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.about {
+    font-size:small;
+    right: 30%;
+    position:absolute;
+    font-family: 'Georama', sans-serif;
+}
+
+.purchaseBox {
+    width: 220px;
+    height: 420px;
+    background: transparent;
+    outline: black;
+    color: rgb(255, 255, 255);
+    top: 50%;
+    right: 5%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+
+hr {
+    color:white;
+}

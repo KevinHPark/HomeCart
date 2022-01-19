@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+    font-weight: 400;
+    margin: 0;
+    background-color: black;
+}
+/* Logo */
+.name {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    position: relative;
+}
+
+.name:hover {
+    color: #ffffff;
+}
+
+.name::before {
+    content: " ";
+    display: block;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+
+    bottom: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+.name:hover::before {
+    width: 100%;
+}
+
+.name {
+    font-family: "Fredoka One", cursive;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 0 #ffffff, 2px 2px 0 #ffffff, 3px 3px 0 rgb(255, 255, 255),4px 4px 0 rgb(255, 255, 255),5px 5px 0 rgb(255, 255, 255);
+}
+
+.mainLogo {
+    content: " ";
+    display: block;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+
+    bottom: 0;
+    width: 0%;
+}
+
+/* Cart */
+.cart {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    position: relative;
+}
+
+.cart:hover {
+    color: #ffffff;
+}
+
+.cart::before {
+    content: " ";
+    display: block;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+
+    bottom: 0;
+    width: 0%;
+
+    transition: all ease-in-out 300ms;
+}
+
+.cart:hover::before {
+    width: 215%;
+}
+
+.cart {
+    font-family: "Fredoka One", cursive;
+    font-size: 3rem;
+    color: black;
+    text-align: right;
+    text-shadow: 1px 1px 0 #ffffff, 2px 2px 0 #ffffff, 3px 3px 0 rgb(255, 255, 255),4px 4px 0 rgb(255, 255, 255),5px 5px 0 rgb(255, 255, 255);
+}
+
+
+/*Login*/
+.navBar {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background: #000000;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    margin-left: 660px;
+    padding-top: 5px;
+
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 35px;
+    color:rgb(0, 0, 0);
+    font-family: "Fredoka One", cursive;
+    text-shadow: 0.5px 0.5px 0 #ffffff, 1px 1px 0 #ffffff, 1.5px 1.5px 0 rgb(255, 255, 255), 2px 2px 0 rgb(255, 255, 255), 2.5px 2.5px 0 rgb(255, 255, 255);
+}
+
+.login {
+    text-align: right;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+nav a::before {
+    content: " ";
+    display: block;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+

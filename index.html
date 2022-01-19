@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <title>HomeCart.com</title>
+
+    <link rel="Stylesheet" href="navBar.css" />
+    <link rel="Stylesheet" href="carosel.css" />
+    <link rel="Stylesheet" href="items.css" />
+    <script src="rotateDisplay.js"></script>
+</head>
+
+<body>
+    <!-- Kevins super cool Navbar -->
+    <header>
+        <div class="navBar">
+            <div>
+                <a class="name" href="index.html">HOME</a>
+                <a class="cart" href="cart.html">Cart</a>
+                <nav>
+                    <ul>
+                        <a class="login" id="loginName" href="login.html">Login</a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Kevins Rotating Display Idea that I definetly didnt steal from Amazon -->
+    <div class="carosel">
+        <div class="displayRotation">
+            <div class="rotation">
+                <img src="Assets\Images\Display1.jpg">
+                <img src="Assets\Images\Display2.jpg">
+                <img src="Assets\Images\Display3.jpg">
+                <img src="Assets\Images\Display4.jpg">
+                <div class="recommendBox">
+                    <div class="recommendText">
+                        <h1>Recommendation</h1>
+                    </div>
+                </div>
+                <div class="recentlyViewed">
+                    <div class="recentlyText">
+                        <h1>Recently Viewed</h1>
+                        <div class = "current">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="items">
+        <div class="allItems">
+            <h1>Products</h1>
+        </div>
+    </div>
+    <script src="login.js"></script>
+
+    <!-- Products -->
+    <ul id="products" class="products">
+        <li>
+            <input class = "product1" type="image" src="Assets\Images\Product1.jpg" alt = "GAOMON PD1161" onclick="location.href='product1.html'; viewBox();" />
+            <!-- <button type="image" src="Assets\Images\Product1.jpg" class="btn btn-secondary" onclick="addToCart('GAOMON PD1161',199.99, 'Assets\Images\Product1.jpg')"> -->
+        </li>
+        <li>
+            <input class = "product2" type="image" src="Assets\Images\Product2.jpg" alt = "GAOMON PD1161" onclick="location.href='product2.html'; viewBox();" />
+            <!-- <button type="image" src="Assets\Images\Product1.jpg" class="btn btn-secondary" onclick="addToCart('GAOMON PD1161',199.99, 'Assets\Images\Product1.jpg')"> -->
+        </li>
+    </ul>
+    <script src="lastViewed.js"></script>
+    
+</body>
+
+</html>
